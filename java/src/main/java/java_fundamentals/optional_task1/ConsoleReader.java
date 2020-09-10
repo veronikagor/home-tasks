@@ -1,6 +1,5 @@
 package java_fundamentals.optional_task1;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public interface ConsoleReader {
@@ -41,7 +40,7 @@ public interface ConsoleReader {
             }
         }
         scanner.close();
-        Arrays.stream(inputNumbers).forEach(e -> System.out.println(e));
+//        Arrays.stream(inputNumbers).forEach(e -> System.out.println(e));
         return inputNumbers;
     }
 
