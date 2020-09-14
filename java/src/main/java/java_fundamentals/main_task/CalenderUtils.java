@@ -26,7 +26,7 @@ public class CalenderUtils {
             System.out.println("Enter the number between 1 - 12 and press <Enter>");
             String enteredNumbers = reader.readLine();
             numberOfMonth = Integer.parseInt(enteredNumbers);
-           reader.close();
+            reader.close();
         } catch (IOException e) {
             System.err.printf("Something goes wrong: %s", e);
         }

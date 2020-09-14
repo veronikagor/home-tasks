@@ -3,7 +3,7 @@ package java_fundamentals.optional_task1;
 import java.util.Scanner;
 
 public interface ConsoleReader {
-   static int[] scanConsole() {
+    static int[] scanConsole() {
         Scanner scanner = new Scanner(System.in);
         int i = -1;
         int numberOfInteger = 0;
@@ -40,10 +40,8 @@ public interface ConsoleReader {
             }
         }
         scanner.close();
-//        Arrays.stream(inputNumbers).forEach(e -> System.out.println(e));
         return inputNumbers;
     }
-
 }
 
 

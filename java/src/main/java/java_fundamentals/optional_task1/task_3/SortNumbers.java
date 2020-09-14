@@ -7,6 +7,7 @@ import java_fundamentals.optional_task1.ConsoleReader;
  * as well as the length.
  */
 public class SortNumbers implements ConsoleReader {
+
     static double averageLengthForAllInputNumbers;
 
     public static double calculateTheAverageLengthForAllNumbers(String[] inputNumbers) {

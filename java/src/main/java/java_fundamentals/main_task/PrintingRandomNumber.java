@@ -9,10 +9,6 @@ public class PrintingRandomNumber {
         printRandomNumbers(args);
     }
 
-    /**
-     * This method print random numbers from 0 to 10 depends on args[0] integer value
-     * @param args - quantity of numbers to generate
-     */
     public static void printRandomNumbers(String[] args) {
         String randomNumbers = "";
         try {
